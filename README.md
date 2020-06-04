@@ -8,6 +8,6 @@ Small website injections that make my browsing experience smoother.
 3. Select: background-script.js
 
 # Packaging
-- Build: `web-ext build`
+- Build: `cd src && web-ext build`
   - Installation: `npm install --global web-ext`
   - Docs: https://extensionworkshop.com/documentation/develop/getting-started-with-web-ext/
