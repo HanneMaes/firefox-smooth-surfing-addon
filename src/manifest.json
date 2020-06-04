@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Smooth Browsing",
   "description": "Small website injections that make my browsing experience smoother",
-  "version": "0.1",
+  "version": "0.2",
   "icons": {
     "64": "icons/icon.png"
   },
@@ -16,11 +16,11 @@
       ]
     }
   ],
-  "page_action": {
+  "browser_action": {
     "default_icon": {
       "64": "icons/icon.png"
     },
-    "default_popup": "pageAction/index.html",
-    "default_title": "Hannes Smooth Browsing"
+    "default_popup": "browserAction/index.html",
+    "default_title": "Smooth Browsing"
   }
 }

@@ -1,0 +1,23 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  padding: 40px;
+}
+
+h1 {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 20px;
+  font-style: italic;
+  font-weight: 200;
+}
+
+div {
+  font-weight: 400;
+  color: rgb(210, 210, 210);
+}
+
+.darker {
+  color: rgb(150, 150, 150);
+}
