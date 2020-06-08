@@ -1,10 +1,16 @@
 {
   "manifest_version": 2,
-  "name": "Smooth Browsing",
+  "name": "Smooth Surfing",
   "description": "Small website injections that make my browsing experience smoother",
-  "version": "0.3",
+  "version": "1.0",
   "icons": {
     "64": "icons/icon.png"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
   },
   "content_scripts": [
     {
@@ -18,7 +24,7 @@
   ],
   "browser_action": {
     "default_icon": {
-      "64": "icons/icon.png"
+      "64": "icons/icon-inactive.png"
     },
     "default_popup": "browserAction/index.html",
     "default_title": "Smooth Browsing"
