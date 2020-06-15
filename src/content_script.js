@@ -24,7 +24,7 @@ function messageToBg(message) {
 // todoist: scroll to bottom
 if(windowLocation.includes("todoist")) {
 
-  messageToBg('Scroll')
+  messageToBg('▼') // messageToBg('↓')
 
   // scroll down when page is loade
   setTimeout(function() {
