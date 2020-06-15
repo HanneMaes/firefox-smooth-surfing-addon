@@ -11,6 +11,11 @@ h1 {
   margin-bottom: 20px;
   font-style: italic;
   font-weight: 200;
+  color: #00B79E;
+}
+
+.firstLetter {
+  color: #74FFF3;
 }
 
 div {
