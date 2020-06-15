@@ -1,3 +1,4 @@
+<img src="src/icons/icon.png"><br>
 # Smooth Surfing <small style="color:lightgrey">FireFox addon</small>
 Small website injections that make my browsing experience smoother.
 
