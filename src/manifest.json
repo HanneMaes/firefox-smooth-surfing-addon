@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Smooth Surfing",
   "description": "Small website injections that make my browsing experience smoother",
-  "version": "0.9",
+  "version": "1.2",
   "icons": {
     "64": "icons/icon.png"
   },
