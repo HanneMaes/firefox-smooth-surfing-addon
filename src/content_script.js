@@ -26,24 +26,38 @@ if(windowLocation.includes("todoist")) {
 
   messageToBg('▼')
 
-  // scroll down when page is loade
+  console.log('-----------------------------')
+console.log('-----------------------------')
+console.log('-----------------------------')
+console.log('todoist')
+console.log('-----------------------------')
+console.log('-----------------------------')
+console.log('-----------------------------')
+
+  // scroll down when page is loaded
   setTimeout(function() {
     scrollToBottom()
-    document.getElementsByTagName('html')[0].mozRequestFullScreen();
   }, 2000);
 } 
 
 //****************************************************************************************************************************************************
 
-// todoist: scroll to bottom
-if(windowLocation.includes("cables.gl/edit")) {
+// cables: fullscreen
+if(windowLocation.includes("cables.gl/edit" || "designer.gravit.io")) {
 
   messageToBg('+')
+
+  console.log('-----------------------------')
+  console.log('-----------------------------')
+  console.log('-----------------------------')
+  console.log('+')
+  console.log('-----------------------------')
+  console.log('-----------------------------')
+  console.log('-----------------------------')
 
   // scroll down when page is loade
   setTimeout(function() {
     fullscreen()
-    document.getElementsByTagName('html')[0].mozRequestFullScreen();
   }, 2000);
 } 
 
