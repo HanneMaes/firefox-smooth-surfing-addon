@@ -25,18 +25,12 @@ function messageToBg(message) {
 if(windowLocation.includes("todoist")) {
 
   messageToBg('▼')
-
-  console.log('-----------------------------')
-console.log('-----------------------------')
-console.log('-----------------------------')
-console.log('todoist')
-console.log('-----------------------------')
-console.log('-----------------------------')
-console.log('-----------------------------')
-
-  // scroll down when page is loaded
   setTimeout(function() {
-    scrollToBottom()
+    
+    // scroll to bottom
+    console.log('Smooth browsing: Todoist -> scroll to bottom')
+    window.scrollTo(0, document.body.scrollHeight)
+
   }, 2000);
 } 
 
@@ -46,18 +40,12 @@ console.log('-----------------------------')
 if(windowLocation.includes("cables.gl/edit" || "designer.gravit.io")) {
 
   messageToBg('+')
-
-  console.log('-----------------------------')
-  console.log('-----------------------------')
-  console.log('-----------------------------')
-  console.log('+')
-  console.log('-----------------------------')
-  console.log('-----------------------------')
-  console.log('-----------------------------')
-
-  // scroll down when page is loade
   setTimeout(function() {
-    fullscreen()
+    
+    // fullscreen
+    console.log('Smooth browsing: Todoist -> fullscreen')
+    document.getElementsByTagName('html')[0].mozRequestFullScreen();
+
   }, 2000);
 } 
 
@@ -67,21 +55,3 @@ if(windowLocation.includes("cables.gl/edit" || "designer.gravit.io")) {
 else {
   messageToBg('inactive')
 }
-
-//****************************************************************************************************************************************************
-// helper functions
-//****************************************************************************************************************************************************
-
-function scrollToBottom() {
-  console.log('Smooth browsing: Todoist -> scroll to bottom')
-  window.scrollTo(0, document.body.scrollHeight)
-}
-
-//****************************************************************************************************************************************************
-
-function fullscreen() {
-  console.log('Smooth browsing: Todoist -> fullscreen')
-  document.getElementsByTagName('html')[0].mozRequestFullScreen();
-}
-
-//****************************************************************************************************************************************************
